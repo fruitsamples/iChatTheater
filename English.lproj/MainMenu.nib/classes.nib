@@ -1,0 +1,36 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {playStop = id; selectSource = id; toggleReplaceVideo = id; }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_movieView" = DropQTMovieView; 
+                "_playStopButton" = NSButton; 
+                "_slideshowView" = SlideshowView; 
+                "_sourcePopUp" = NSPopUpButton; 
+                "_sourceTabView" = NSTabView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = DropImageView; LANGUAGE = ObjC; SUPERCLASS = NSImageView; }, 
+        {CLASS = DropQCView; LANGUAGE = ObjC; SUPERCLASS = QCView; }, 
+        {
+            CLASS = DropQTMovieView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_controller" = Controller; }; 
+            SUPERCLASS = QTMovieView; 
+        }, 
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NormalGLView; LANGUAGE = ObjC; SUPERCLASS = NSOpenGLView; }, 
+        {CLASS = SlideshowView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = ThreadedGLView; LANGUAGE = ObjC; SUPERCLASS = NSOpenGLView; }
+    ); 
+    IBVersion = 1; 
+}

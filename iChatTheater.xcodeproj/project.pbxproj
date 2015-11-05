@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 43;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D021AB030BE956AE003597E0 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D021AB020BE956AE003597E0 /* AppIcon.icns */; };
+		D022E8B60BF905DE006FCC45 /* SoundAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D022E8B50BF905DE006FCC45 /* SoundAdditions.m */; };
+		D041A7DF0AF923EE005460FA /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = D041A7DE0AF923EE005460FA /* Controller.m */; };
+		D041A7E10AF92750005460FA /* InstantMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D041A7E00AF92750005460FA /* InstantMessage.framework */; };
+		D041A8210AF92E33005460FA /* DropQCView.m in Sources */ = {isa = PBXBuildFile; fileRef = D041A81F0AF92E33005460FA /* DropQCView.m */; };
+		D041A8340AF92E9A005460FA /* QuartzComposer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D041A8330AF92E9A005460FA /* QuartzComposer.framework */; };
+		D041A8380AF92F79005460FA /* NormalGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = D041A8360AF92F79005460FA /* NormalGLView.m */; };
+		D041A8480AF930F3005460FA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D041A8470AF930F3005460FA /* OpenGL.framework */; };
+		D041A84D0AF93108005460FA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D041A84C0AF93108005460FA /* CoreVideo.framework */; };
+		D041A91C0AF94F4E005460FA /* SlideshowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D041A91B0AF94F4E005460FA /* SlideshowView.m */; };
+		D041A9D00AF97527005460FA /* laser-dot.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D041A9CF0AF97527005460FA /* laser-dot.tiff */; };
+		D041A9F60AFA6E86005460FA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D041A9F50AFA6E86005460FA /* WebKit.framework */; };
+		D041AAE90AFA8C1D005460FA /* ThreadedGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = D041AAE70AFA8C1C005460FA /* ThreadedGLView.m */; };
+		D041AB2A0AFAAAF2005460FA /* DropQTMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = D041AB290AFAAAF2005460FA /* DropQTMovieView.m */; };
+		D041AB470AFAAC33005460FA /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D041AB460AFAAC33005460FA /* QTKit.framework */; };
+		D0920CF80BA6156F00BC124E /* iChatTheater_on.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0920CF60BA6156F00BC124E /* iChatTheater_on.tiff */; };
+		D0920CF90BA6156F00BC124E /* iChatTheater_off.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D0920CF70BA6156F00BC124E /* iChatTheater_off.tiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* iChatTheater_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iChatTheater_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* iChatTheater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChatTheater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D021AB020BE956AE003597E0 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		D022E8B40BF905DE006FCC45 /* SoundAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundAdditions.h; sourceTree = "<group>"; };
+		D022E8B50BF905DE006FCC45 /* SoundAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundAdditions.m; sourceTree = "<group>"; };
+		D041A7DD0AF923EE005460FA /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		D041A7DE0AF923EE005460FA /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		D041A7E00AF92750005460FA /* InstantMessage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InstantMessage.framework; path = /System/Library/Frameworks/InstantMessage.framework; sourceTree = "<absolute>"; };
+		D041A81F0AF92E33005460FA /* DropQCView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DropQCView.m; sourceTree = "<group>"; };
+		D041A8200AF92E33005460FA /* DropQCView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DropQCView.h; sourceTree = "<group>"; };
+		D041A8330AF92E9A005460FA /* QuartzComposer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzComposer.framework; path = /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework; sourceTree = "<absolute>"; };
+		D041A8360AF92F79005460FA /* NormalGLView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NormalGLView.m; sourceTree = "<group>"; };
+		D041A8370AF92F79005460FA /* ThreadedGLView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ThreadedGLView.h; sourceTree = "<group>"; };
+		D041A8470AF930F3005460FA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		D041A84C0AF93108005460FA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		D041A91A0AF94F4E005460FA /* SlideshowView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SlideshowView.h; sourceTree = "<group>"; };
+		D041A91B0AF94F4E005460FA /* SlideshowView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SlideshowView.m; sourceTree = "<group>"; };
+		D041A9CF0AF97527005460FA /* laser-dot.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "laser-dot.tiff"; sourceTree = "<group>"; };
+		D041A9F50AFA6E86005460FA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		D041AAE70AFA8C1C005460FA /* ThreadedGLView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ThreadedGLView.m; sourceTree = "<group>"; };
+		D041AAE80AFA8C1C005460FA /* NormalGLView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NormalGLView.h; sourceTree = "<group>"; };
+		D041AB280AFAAAF2005460FA /* DropQTMovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropQTMovieView.h; sourceTree = "<group>"; };
+		D041AB290AFAAAF2005460FA /* DropQTMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropQTMovieView.m; sourceTree = "<group>"; };
+		D041AB460AFAAC33005460FA /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		D0920CF60BA6156F00BC124E /* iChatTheater_on.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = iChatTheater_on.tiff; sourceTree = "<group>"; };
+		D0920CF70BA6156F00BC124E /* iChatTheater_off.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = iChatTheater_off.tiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D041A7E10AF92750005460FA /* InstantMessage.framework in Frameworks */,
+				D041A8340AF92E9A005460FA /* QuartzComposer.framework in Frameworks */,
+				D041A8480AF930F3005460FA /* OpenGL.framework in Frameworks */,
+				D041A84D0AF93108005460FA /* CoreVideo.framework in Frameworks */,
+				D041A9F60AFA6E86005460FA /* WebKit.framework in Frameworks */,
+				D041AB470AFAAC33005460FA /* QTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D041A7DD0AF923EE005460FA /* Controller.h */,
+				D041A7DE0AF923EE005460FA /* Controller.m */,
+				D041A8200AF92E33005460FA /* DropQCView.h */,
+				D041A81F0AF92E33005460FA /* DropQCView.m */,
+				D041AB280AFAAAF2005460FA /* DropQTMovieView.h */,
+				D041AB290AFAAAF2005460FA /* DropQTMovieView.m */,
+				D041AAE80AFA8C1C005460FA /* NormalGLView.h */,
+				D041A8360AF92F79005460FA /* NormalGLView.m */,
+				D041A91A0AF94F4E005460FA /* SlideshowView.h */,
+				D041A91B0AF94F4E005460FA /* SlideshowView.m */,
+				D022E8B40BF905DE006FCC45 /* SoundAdditions.h */,
+				D022E8B50BF905DE006FCC45 /* SoundAdditions.m */,
+				D041A8370AF92F79005460FA /* ThreadedGLView.h */,
+				D041AAE70AFA8C1C005460FA /* ThreadedGLView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				D041A7E00AF92750005460FA /* InstantMessage.framework */,
+				D041A9F50AFA6E86005460FA /* WebKit.framework */,
+				D041A8470AF930F3005460FA /* OpenGL.framework */,
+				D041A84C0AF93108005460FA /* CoreVideo.framework */,
+				D041A8330AF92E9A005460FA /* QuartzComposer.framework */,
+				D041AB460AFAAC33005460FA /* QTKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* iChatTheater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* iChatTheater */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = iChatTheater;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iChatTheater_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				D021AB020BE956AE003597E0 /* AppIcon.icns */,
+				D0920CF60BA6156F00BC124E /* iChatTheater_on.tiff */,
+				D0920CF70BA6156F00BC124E /* iChatTheater_off.tiff */,
+				D041A9CF0AF97527005460FA /* laser-dot.tiff */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* iChatTheater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "iChatTheater" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iChatTheater;
+			productInstallPath = "$(HOME)/Applications";
+			productName = iChatTheater;
+			productReference = 8D1107320486CEB800E47090 /* iChatTheater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iChatTheater" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* iChatTheater */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* iChatTheater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				D041A9D00AF97527005460FA /* laser-dot.tiff in Resources */,
+				D0920CF80BA6156F00BC124E /* iChatTheater_on.tiff in Resources */,
+				D0920CF90BA6156F00BC124E /* iChatTheater_off.tiff in Resources */,
+				D021AB030BE956AE003597E0 /* AppIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				D041A7DF0AF923EE005460FA /* Controller.m in Sources */,
+				D041A8210AF92E33005460FA /* DropQCView.m in Sources */,
+				D041A8380AF92F79005460FA /* NormalGLView.m in Sources */,
+				D041A91C0AF94F4E005460FA /* SlideshowView.m in Sources */,
+				D041AAE90AFA8C1D005460FA /* ThreadedGLView.m in Sources */,
+				D041AB2A0AFAAAF2005460FA /* DropQTMovieView.m in Sources */,
+				D022E8B60BF905DE006FCC45 /* SoundAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = iChatTheater_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = iChatTheater;
+				SDKROOTS = "";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Quartz.framework/Versions/A/Frameworks\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREFIX_HEADER = iChatTheater_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = iChatTheater;
+				SDKROOTS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOTS = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOTS = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "iChatTheater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iChatTheater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
